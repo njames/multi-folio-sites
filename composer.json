@@ -9,7 +9,8 @@
         "laravel/folio": "^1.1",
         "laravel/framework": "^11.9",
         "laravel/tinker": "^2.9",
-        "laravel/vapor-core": "^2.37"
+        "laravel/vapor-core": "^2.37",
+        "snellingio/folio-markdown": "^1.0@beta"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",

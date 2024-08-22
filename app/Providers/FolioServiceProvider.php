@@ -5,6 +5,8 @@ namespace App\Providers;
 use Illuminate\Support\ServiceProvider;
 use Laravel\Folio\Folio;
 
+use Snelling\FolioMarkdown\Facades\FolioMarkdown;
+
 class FolioServiceProvider extends ServiceProvider
 {
     /**
@@ -25,5 +27,8 @@ class FolioServiceProvider extends ServiceProvider
                 //
             ],
         ]);
+
+        // Register Folio Markdown at the bottom of the boot method
+        FolioMarkdown::register();
     }
 }
